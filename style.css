@@ -53,3 +53,44 @@ body {
   height: auto;
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .header img {
+    width: 400px;
+  }
+
+  .center img {
+    width: 150px;
+  }
+
+  .footer img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+    height: auto;
+  }
+
+  .header img {
+    width: 400px;
+    margin-left: 10px;
+  }
+
+  .center {
+    gap: 20px;
+    margin-top: 80px;
+  }
+
+  .center img {
+    width: 160px;
+  }
+
+  .footer img {
+    width: 200px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+  }
+}
